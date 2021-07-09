@@ -9,7 +9,7 @@ This little program allows users to add, sell and remove kegs of beer from a tap
 
 ## Component Diagram
 
-![Diagram](./Diagram.png)
+![Component Diagram](./Diagram.png)
 
 ## Setup and Use
 
