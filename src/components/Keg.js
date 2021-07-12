@@ -6,11 +6,11 @@ function Keg(props)
 
   return (
     <React.Fragment>
-      <div onClick = {() => props.whenKegClicked(props.id)}>
+      <div onClick={() => props.whenKegClicked(props.id)}>
         <h3>{props.name}</h3>
-        <p>{props.brand}</p>
-        <p>{props.price}</p>
-        <p>{props.alcohol}</p>
+        <p>Made by: {props.brand}</p>
+        <p>Pint price: {props.price}</p>
+        <p>ABV: {props.alcohol}</p>
       </div>
       <hr />
     </React.Fragment>
