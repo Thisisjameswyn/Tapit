@@ -19,9 +19,9 @@ function KegDetail(props)
   return (
     <React.Fragment>
       <h2>Keg Detail</h2>
-      <h3>{keg.name} - produced by: {keg.brand}</h3>
-      <h4>{keg.abv}</h4>
-      <p><em>{keg.price}</em></p>
+      <h3>{keg.name} - <em>produced by: </em>{keg.brand}</h3>
+      <h4><em>{keg.alcohol} abv</em></h4>
+      <p><em>$ {keg.price}</em></p>
       <p>{pints}</p>{sell}
       <button onClick={() => onClickingDelete(keg.id)}>Remove Keg</button>
       <hr />
