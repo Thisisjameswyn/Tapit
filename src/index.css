@@ -1,14 +1,24 @@
-body {
+#root {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
+  color: rgb(43, 60, 92);
   background-color: bisque;
-  color: rgb(255, 132, 132);
+  height: 100vh;
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border: 10px solid grey;
 }
 
-/* #root {
-  width: 80%;
-} */
+body {
+  background-color: rgb(80, 205, 255);
+}
+
+#style {
+  padding-top: 50px;
+  background-color: rgb(163, 229, 255);
+}
 
 
